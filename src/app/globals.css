@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-box{
+  margin-top: 110px;
+}
+
+body{
+  background-color:#FD7B07;
+}
+.pic{
+  margin-left: 200px !important;
+
+  width: 900px;
+  height: 150px;
+}
+.pi{
+  z-index: 1000;
+  color: white;
+  font-family:cursive;
+  font-size: larger;
+}
+.button{
+  margin-top: 0px;
+  
+}
+.button:hover{
+  background-color: transparent;
+  color: white;
+}
+
+/* #3F72AF */
+.class{
+  background-color:white;
+}
+@media screen and (max-width:425)and (min-width:320){
+  .texth{
+    margin-top: 200px;
+  }
+  .box{
+    width: 30px !important;
+    height: 15px !important;
+  }
+}
+
+/* #F1EAFF light white */
+/* DBE2EF blue light */
+/* #D0A2F7 good  */
+/* AC87C5 pink */
+/* E0AED0 purple*/
+/* #1A5D1A */

@@ -1,0 +1,22 @@
+.text{
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 110px;
+    margin-top: 50px;
+    font-family:cursive !important;
+    z-index: 100;
+    
+}
+.about{
+    font-weight: 800;
+    margin-left: 550px;
+    margin-top: 140px;
+    z-index: 100;
+}
+.logoabout{
+    margin-left: 400px;
+    margin-top: 40px;
+    width: 600px;
+    height: 90px;
+    z-index: 100;
+}

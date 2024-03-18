@@ -1,0 +1,15 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Web Development Course",
+        "description": "Learn the basics of web development including HTML, CSS, TypeScript, and Next.js.",
+        "duration": "Ongoing",
+        "instructor": "Syeda Hafsa",
+        "price_per_month_pkr": 2000,
+        "discounted_price_first_ten_students_pkr": 1500,
+        "type": ["Onsite", "Online"]
+      }
+    ]
+  }
+  
