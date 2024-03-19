@@ -13,7 +13,7 @@ export default function page() {
             <FeaturedCourses />
             <Instructors />
             <WhyChooseUs />
-            <Footer />
+           
             
            
     </main>
