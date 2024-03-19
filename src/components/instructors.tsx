@@ -7,7 +7,7 @@ const instructors = [
     {
       id: 1,
       name: 'Syeda Hafsa',
-      designation: 'Web Developer',
+      designation: 'Full Stack Developer',
       image:
         '/syedahafsa.jpg',
     },

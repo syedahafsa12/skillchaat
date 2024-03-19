@@ -36,7 +36,7 @@ export const StickyScroll = ({
   const linearGradients = [
     "linear-gradient(to bottom right, #06B6D4, #10B981)", // cyan-500 and emerald-500 equivalent color codes
     "linear-gradient(to bottom right, #F472B6, #7C3AED)", // pink-500 and indigo-500 equivalent color codes
-    "linear-gradient(to bottom right, #F59E0B, #D97706)", // orange-500 and yellow-500 equivalent color codes
+    "linear-gradient(to bottom right, #F59E0B, #EC4899)" // orange-500 and yellow-500 equivalent color codes
   ];
   return (
     <motion.div
