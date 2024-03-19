@@ -27,7 +27,7 @@ import { SparklesCore } from "./ui/sparkles";
      relative overflow-hidden mx-auto py-10 md:py-0'>
       
       <div className='relative p-4 z-10 w-full text-center'>
-      <h1 className=' mt-0 md:mt-10 '><img src="/skillchaat.png" className='pic' alt="skillchaat" /></h1>
+      <h1 className=' mt-0 md:mt-10 '><img src="/skillchaat.png" className='pic ' alt="skillchaat" /></h1>
 
 
         <p className='pi text-white '>Elevate your skills with Skill Chaat: Explore. Learn. Excel.</p></div>

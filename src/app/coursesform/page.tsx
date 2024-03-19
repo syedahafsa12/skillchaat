@@ -141,6 +141,13 @@ function MusicSchoolContactUs() {
   readOnly // Make the input read-only so users can't change the course
   className="rounded-lg border border-white w-full p-4 bg-orange placeholder:text-neutral-700"
 />
+<input
+  type="text"
+  name="Fee"
+  value="Course Fee Rs 2000" // Default value for the web development course
+  readOnly // Make the input read-only so users can't change the course
+  className="rounded-lg border border-white w-full p-4 bg-orange placeholder:text-neutral-700"
+/>
           <textarea
             name="message"
             value={formData.message}

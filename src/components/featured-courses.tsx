@@ -20,7 +20,7 @@ function FeaturedCourses() {
 
 
   return (
-    <div className=" py-12 bg-orange ">
+    <div className="featuredcourses py-12 bg-orange ">
         <div>
             <div className="text-center">
                 <h2 className="text-base text-white font-semibold tracking-wide uppercase">FEATURED COURSES</h2>
