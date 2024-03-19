@@ -16,7 +16,7 @@ web development. Dive into our featured courses
  and explore the <br /> fundamentals  of HTML, CSS, TypeScript, 
  and Next.js. Our platform offers expert guidance from industry <br /> 
  professionals to help you excel in your web development journey. Join us today and unlock your full potential in the <br />  world of web development.</p>
- <img src="/skillchaat.png" alt="logo" className='logoabout'/>
+ {/* <img src="/skillchaat.png" alt="logo" className='logoabout'/> */}
  <BackgroundBeams />
    
  </main>

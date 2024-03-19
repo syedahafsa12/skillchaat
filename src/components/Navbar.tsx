@@ -91,7 +91,7 @@ function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
     
     return (
-        <main className={cn("fixed top-7 inset-x-0 max-w-2xl mx-auto z-50", className)}>
+        <main className={cn("fixed top-7 inset-x-0 max-w-2xl mx-auto z-50", className='navbartop')}>
             <Menu setActive={setActive}>
                 <Link href={"/"}>
                     <MenuItem setActive={setActive} active={active} item="Home" />
@@ -100,11 +100,11 @@ function Navbar({ className }: { className?: string }) {
                     <MenuItem setActive={setActive} active={active} item="About Us" />
                 </Link>
                 <MenuItem setActive={setActive} active={active} item="Courses">
-                    <div className="text-sm grid gap-10 p-4">
+                    <div className="text-sm grid gap-5 p-1 whitebox mt-0 ml-0">
                         <ProductItem
                             title="Web Development"
                             href="/courses"
-                            src="/algochurn.webp"
+                            src="/laptop.png"
                             description="Learn the basics of web development."
                         />
                         {/* Add more ProductItems for other courses */}

@@ -1,8 +1,10 @@
+// pages/background-gradient.tsx
+
 import { cn } from "@/utils/cn";
 import React from "react";
 import { motion } from "framer-motion";
 
-export const BackgroundGradient = ({
+const BackgroundGradient = ({
   children,
   className,
   containerClassName,
@@ -70,3 +72,6 @@ export const BackgroundGradient = ({
     </div>
   );
 };
+
+export default BackgroundGradient;
+
