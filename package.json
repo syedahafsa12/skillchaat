@@ -1,9 +1,12 @@
 {
+  "homepage": "https://syedahafsa12.github.io/skillchaat",
   "name": "s.h_website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy":"npm run build",
     "dev": "next dev",
+    "deploy":"gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
