@@ -36,7 +36,7 @@ function FeaturedCourses() {
         <div className="grid justify-center">
           {featuredCourses.map((course: Course) => (
             <div key={course.id} className="flex">
-              <BackgroundGradient className="flex rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
+              <BackgroundGradient className=" courseboxsecond flex rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                 <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
                   <p className="text-lg sm:text-xl text-black text-bold mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
                   <p className="text-sm text-black dark:text-neutral-400 flex-grow">{course.description}</p>

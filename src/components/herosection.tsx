@@ -30,7 +30,7 @@ import { SparklesCore } from "./ui/sparkles";
       <h1 className=' mt-0 md:mt-10 '><img src="/skillchaat.png" className='pic ' alt="skillchaat" /></h1>
 
 
-        <p className='pi text-white '>Elevate your skills with Skill Chaat: Explore. Learn. Excel.</p></div>
+        <p className='pi text-white '>Elevate your skills with Skill Chaat: <br /> Explore. Learn. Excel.</p></div>
         <div className="mt-4">
          {/* <Link href={'/courses'}><Button borderRadius='1.75rem'className="button bg-customBlue dark:bg-black text-black dark:text-white border-neutral-200 dark:bg-black">Explore Courses</Button></Link>  */}
           <Link href="/courses"> 

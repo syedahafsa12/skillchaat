@@ -2,3 +2,10 @@
     background-color: #DBE2EF;
 } */
 /* #3F72AF blue */
+
+@media screen  and (min-width:320px)and (max-width:425px){
+  .courseboxsecond{
+    width: 270px !important;
+    height: 170px !important;
+  }
+}
